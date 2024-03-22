@@ -39,8 +39,3 @@ repos:
     rev: v3.1.0
     hooks:
       - id: add-trailing-comma
-
-  - repo: https://github.com/jendrikseipp/vulture
-    rev: 'v2.11'  # or any later Vulture version
-    hooks:
-      - id: vulture
