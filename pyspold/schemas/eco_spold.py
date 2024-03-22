@@ -16,4 +16,5 @@ class EcoSpold(BaseModel):
             "childActivityDataset",
             "activityDataset",
         ),
+        serialization_alias="activityDataset",
     )
